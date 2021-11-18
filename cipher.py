@@ -28,6 +28,6 @@ def calccipher(alphabet):
         if letter in " ":
             result += " "
 
-    
     print(result)
+
 main()
