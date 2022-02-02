@@ -7,7 +7,7 @@ def main():
 
 def userinp():
     usertext = str(input("Please Type Your Message: ")).upper()
-    userlength = int(input("Please Enter [+] or [-] with the Shift Length: "))
+    userlength = int(input("Please Enter [-] then with the Shift Length [e.g: -4] >> "))
     return usertext, userlength
 
 def calccipher(alphabet):
